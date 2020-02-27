@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+   
+}
+
+.wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+.nav li{
+    padding-left: 23px;
+    position: relative;
+    margin-left: 22px;
+    
+}
+.nav li::before{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #494949;
+    position: absolute;
+    left: 0;
+}
+
+.nav li:first-child{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.nav li:first-child::before{
+    display: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #494949;
+}
+.navigation{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 39px;
+}
+
+.text-position{
+    color: #ffffff;
+    padding-top: 259px;
+    padding-bottom: 471px;
+}
+.text-second-section-position{
+    max-width: 571px;
+}
+#second-section-big-text{
+    
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-bottom:32px;
+}
+
+#second-section-little-text{
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.pizza-piece{
+    position: absolute;
+    top:176px;
+    right:312px;
+    bottom: 151px;
+    left:998px;
+}
+
+#red-more{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 42px;
+    padding-right: 45px;
+    text-transform: uppercase;
+ 
+
+}
+
+
+
+
+.upper-text-3rd-section{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #282828;
+    margin: 0;
+
+}
+
+.decription-3rdsection{
+    text-align: center;
+    color: #959595;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+  
+}
+
+.center-third{
+    padding-top: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+
+.menu-third-section{
+    margin-top: 0;
+    padding-top: 48px;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-left: 305px;
+  
+    margin-bottom: 0;
+   
+
+   
+
+}
+.menu-third-section a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #494848;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.menu-third-section li{
+    list-style-type: none;
+    border-right: 2px solid #494848;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.menu-third-section li:last-child{
+    border-right: none;
+}
+
+
+.triange-picture{
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 12px;
+ 
+}
+
+.rectangle-picture{
+    position: relative;
+    padding-left: 278px;
+    padding-top: 19px;
+    padding-bottom: 38px;
+    
+    
+}
+
+.white-rectangle{
+    
+    background-color: white;
+    max-width: 1170px;
+    height: 403px;
+
+
+}
+
+
+.create-logo{
+    position: absolute;
+    padding-bottom: 95px;
+    padding-left: 351px;
+    padding-top: 70px;
+    
+
+}
+
+/*.create-your-logo-text{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+*/
+.create-logo + p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+
+
+.footer-text{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 46px;
+    padding-left: 332px;
+    position: absolute;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backgound-mm{
+    background-image: url(images/redtop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 766px;
+}
+.middle-page{
+    height: 982px;
+}
+.footer-page{
+    height: 106px;
+    background-image: url(images/footer.png);
+}
